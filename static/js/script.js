@@ -6,6 +6,13 @@ link.href = "/static/css/style.css";
 
 document.head.appendChild(link);
 
+// Title of page
+const title = document.createElement("title");
+
+title.textContent = "Enter Password";
+
+document.head.appendChild(title);
+
 // Main container
 const newDiv = document.createElement("div");
 
